@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1em;
 }
 
 .icon {
@@ -33,6 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -63,4 +65,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.card-layout{
+  display: flex;
+  gap: 1em;
+}
+
+.card-content {
+  display:flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.card-header{
+  display:flex;
+}
+
+.button-box {
+  display:flex;
+  gap: .33em;
+}
+
+.header {
+  font-size: 1.1em;
+  font-weight:bold;
+  margin-right: auto;
 }
